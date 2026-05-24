@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+.env.*
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Data & heavy files (jangan ikut deploy)
+data/
+notebooks/
+src/features/
+src/visualization/
+src/data/
+models/mlruns/
+
+# Hanya deploy model_*.pkl, exclude best_model_*.pkl
+models/saved_models/best_model_ocean_current_velocity.pkl
+models/saved_models/best_model_precipitation.pkl
+models/saved_models/best_model_sea_surface_temperature.pkl
+models/saved_models/best_model_visibility.pkl
+models/saved_models/best_model_wave_height.pkl
+models/saved_models/best_model_wind_speed_10m.pkl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Vercel
+.vercel/
